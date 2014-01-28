@@ -45,5 +45,11 @@ function Item:off(nameOrFn, fn)
 end
 {% endhighlight %}
 
+What I learned was that string.gmatch returns an iterator to fit nicely into a for loop. Maybe will elaborate a bit more on this later.
+
 _Todays Link_ is to help you write, a nice site called [Written? Kitten!][writtenkitten].
 
+[lua]: http://lua.org
+[codea]: http://twolivesleft.com/Codea/
+[class]: https://github.com/TwoLivesLeft/Codea-Runtime/blob/master/CodeaTemplate/Codify/Resources/Lua/Class.lua
+[writtenkitten]: http://writtenkitten.net "Be motived to write with images of cats!"
